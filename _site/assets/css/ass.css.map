@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,MAAM;EACL,UAAU,EAAE,IAAI",
+"sources": ["3-modules/_header.sass"],
+"names": [],
+"file": "ass.css"
+}

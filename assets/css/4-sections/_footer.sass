@@ -1,0 +1,41 @@
+footer
+	background: url(/assets/img/hero2.png) center center
+	background-size: cover
+	font-family: 'Open Sans', sans-serif
+
+	.lockup
+		padding: 50px 30px
+
+		.logo
+			float: left
+			margin-right: 30px
+
+			path
+				fill: rgba(0,0,0,0.5)
+
+		.content-wrap
+			float: left
+			text-transform: uppercase
+			margin-top: 5px
+	
+			a
+				@extend %small-bold
+				color: rgba(0,0,0,0.5)
+				display: inline-block
+				margin-right: 30px
+
+			a:hover
+				color: rgba(0,0,0,0.7)
+
+
+			.copyright
+				margin: 3px 0 0 0
+				font-size: 12px
+				color: rgba(0,0,0,0.4)
+
+	.lockup::after 
+		clear: both
+		content: ""
+		display: table
+
+

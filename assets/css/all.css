@@ -1,0 +1,91 @@
+html, body {
+  margin: 0;
+  padding: 0; }
+
+header nav a, header .kicker, footer .lockup .content-wrap a, h3 {
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase; }
+
+header {
+  background: url(/assets/img/hero2.png) center center;
+  width: 100%;
+  height: 450px;
+  background-size: cover;
+  font-family: "Open Sans", sans-serif; }
+  header .logo {
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin: 30px 0 0 30px; }
+    header .logo path {
+      fill: rgba(0, 0, 0, 0.5); }
+  header nav {
+    float: right;
+    margin: 30px 30px 0 0; }
+    header nav a {
+      display: inline-block;
+      margin-left: 20px;
+      color: rgba(0, 0, 0, 0.5); }
+      header nav a:hover {
+        color: black; }
+  header h1 {
+    text-align: center;
+    font-size: 72px;
+    font-weight: 700px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 20px;
+    clear: both;
+    padding-top: 100px; }
+    header h1 span {
+      display: inline-block;
+      padding: 0.2em 0.5em;
+      border: white solid 10px; }
+  header .kicker {
+    text-align: center;
+    color: white;
+    letter-spacing: 0.05em;
+    line-height: 1; }
+
+footer {
+  background: url(/assets/img/hero2.png) center center;
+  background-size: cover;
+  font-family: "Open Sans", sans-serif; }
+  footer .lockup {
+    padding: 50px 30px; }
+    footer .lockup .logo {
+      float: left;
+      margin-right: 30px; }
+      footer .lockup .logo path {
+        fill: rgba(0, 0, 0, 0.5); }
+    footer .lockup .content-wrap {
+      float: left;
+      text-transform: uppercase;
+      margin-top: 5px; }
+      footer .lockup .content-wrap a {
+        color: rgba(0, 0, 0, 0.5);
+        display: inline-block;
+        margin-right: 30px; }
+      footer .lockup .content-wrap a:hover {
+        color: rgba(0, 0, 0, 0.7); }
+      footer .lockup .content-wrap .copyright {
+        margin: 3px 0 0 0;
+        font-size: 12px;
+        color: rgba(0, 0, 0, 0.4); }
+  footer .lockup::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+h3 {
+  color: rgba(0, 0, 0, 0.7);
+  text-align: center; }
+
+.face-lockup {
+  max-width: 780px;
+  display: flex; }
+
+/*# sourceMappingURL=all.css.map */

@@ -1,0 +1,18 @@
+# Site settings
+title: Erik Sundqvist
+email: erik.s.sundqvist@gmail.com
+description: Flygledare // Programmerare // Snickare
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: "@ejki"
+github_username:  ejki
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+#här kan man ändra port!
+
+sass:
+sass_dir: assets/css
+style: compressed
