@@ -2,7 +2,7 @@ html, body {
   margin: 0;
   padding: 0; }
 
-header nav a, header .kicker, footer .lockup .content-wrap a, h3 {
+header nav a, header .kicker, footer .lockup .content-wrap a, section h3 {
   font-size: 14px;
   font-weight: 700;
   font-family: "Open Sans", sans-serif;
@@ -80,12 +80,17 @@ footer {
     content: "";
     display: table; }
 
-h3 {
+section h3 {
   color: rgba(0, 0, 0, 0.7);
   text-align: center; }
-
-.face-lockup {
+section .face-lockup {
   max-width: 780px;
   display: flex; }
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  max-width: 500px;
+  text-align: center; }
 
 /*# sourceMappingURL=all.css.map */
